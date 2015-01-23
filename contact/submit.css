@@ -1,0 +1,27 @@
+body {
+  padding-top: 50px;
+}
+.main {
+  padding-top: 100px;
+  text-align: center;
+  margin: auto;
+}
+.main > * {
+  vertical-align: middle;
+}
+.glyphicon {
+  margin-right: 20px;
+  font-size: 40px;
+}
+.glyphicon-ok {
+  color: green;
+}
+.glyphicon-remove {
+  color: red;
+  margin-top: 10px;
+}
+h3 {
+  font-family:"ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+  display: inline-block;
+  font-size:30px
+}

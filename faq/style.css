@@ -1,0 +1,45 @@
+body {
+  padding-top: 50px;
+}
+.main {
+  width: 800px;
+  padding: 40px 0px 40px 0px;
+  margin: auto;
+}
+h3 {
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+  margin-top: 40px;
+  line-height: 1.5;
+}
+.capital {
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+  font-weight: bold;
+}
+.Q {
+  font-size: 30px;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+.A {
+  vertical-align: bottom;
+  font-size: 30px;
+  position: relative;
+  top: 15px;
+  margin-right: 13px;
+}
+p {
+  font-family: "ff-tisa-web-pro-1","ff-tisa-web-pro-2","Lucida Grande","Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+  line-height:2;
+  margin-top: -25px;
+}
+ul {
+  margin-top: -28px;
+  margin-left: 10px;
+}
+@media screen and (max-width:768px) {
+  .main {
+    width: 100%;
+    padding: 0px 30px 40px 30px;
+  }
+}

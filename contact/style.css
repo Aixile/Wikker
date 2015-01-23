@@ -1,0 +1,38 @@
+body {
+  padding-top: 50px;
+}
+.main {
+  width:800px;
+  padding-top: 40px;
+  margin: auto;
+}
+.textarea1 {
+  height:200px !important;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.submit {
+  margin-top: -37px;
+  text-align: right;
+}
+.inline {
+  display:inline-block;
+}
+.text1 {
+	display:inline-block;
+	width: 200px;
+}
+.long-p {
+	text-indent:28px;
+}
+@media screen and (max-width:768px) {
+  .main {
+    width:100%;
+	padding:40px 20px 40px 20px;
+  }
+}
+@media screen and (max-width:380px) {
+  .submit {
+    margin-top: -34px;
+  }
+}

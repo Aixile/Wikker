@@ -1,0 +1,154 @@
+body {
+  padding-top: 50px;
+}
+.main {
+  width:800px;
+  padding-top: 100px;
+  text-align: center;
+  margin: auto;
+}
+h1 {
+  font-family:黑体;
+}
+.input-group-outer {
+  width: 250px;
+  display:inline-block;
+  vertical-align: middle;
+}
+.arrow {
+  display: inline-block;
+  margin: 0px 20px 0px 20px;
+  height: 30px;
+  width: 45px;
+  background-image: url(/img/arrow1.png);
+  vertical-align: middle;
+}
+.arrow:hover {
+  background-image: url(/img/swap1.png);
+  cursor: pointer;
+}
+.submit {
+  margin-top: 30px;
+}
+h4 {
+  display: inline-block;
+}
+.option {
+  display: inline-block;
+}
+.show-options {
+  display: block;
+  padding: 0px 5px 0px 5px;
+  cursor: pointer;
+}
+.show-options > * {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.options {
+  margin: 10px 0px 20px 0px;
+  text-align: center;
+  display: none;
+  padding: 0px 10px;
+}
+.options-left {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+  /* padding: 0px 0px 0px 34px; */
+}
+.options-left > p {
+	text-align:left;
+}
+.options-left > div {
+	display:inline-block;
+	margin-right:20px;
+	margin-top: 5px;
+}
+.options-right {
+  width: 49%;
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+.advanced {
+  width: 600px;
+  border-radius:6px;
+  border: 1px solid grey;
+  margin: auto;
+  margin-top: 30px;
+  padding: 0px 5px 0px 10px;
+  text-align: left;
+}
+.textarea1 {
+  height: 100px !important;
+}
+.random {
+  cursor: pointer;
+}
+.random.disabled {
+	color: lightgray;
+    pointer-events: none;
+}
+.help {
+	width:300px;
+	text-align: center;
+	position: absolute;
+	right: 20px;
+	top: 60px;
+}
+.share {
+	text-align:right;
+	position: relative;
+	top: -20px;
+	right:100px
+}
+@media screen and (max-width: 450px) {
+  .advanced {
+    width:300px;
+  }
+  .arrow:hover {
+    background-image: url(/img/swap2.png);
+    cursor: pointer;
+  }
+  .options-left {
+	  width:100%;
+  }
+  .options-right {
+	  width: 100%;
+  }
+  .options-left > div {
+	  margin-top:0px;
+  }
+}
+@media screen and (max-width:600px) {
+  .arrow{
+	height: 30px;
+	width: 30px;
+    margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
+	display:block; 
+    background-image: url(/img/arrow2.png);	
+  }
+  .advanced {
+	  width:100%;
+  }
+}
+@media screen and (max-width:768px) {
+  .main {
+    width:100%;
+	padding:40px 20px 40px 20px;
+  }
+  .help-outer {
+    text-align:right;
+  }
+  .help {
+    position: initial;
+    float:right;
+	margin-right:20px;
+  }
+  .share {
+    right:0px;
+  }
+}
